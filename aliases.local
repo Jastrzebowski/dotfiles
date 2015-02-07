@@ -1,0 +1,8 @@
+# Productivity
+
+alias todo='$EDITOR ~/.todo'
+
+# Goldenline
+
+alias glsync='ssh a7 ./codesync.sh'
+alias sync='ssh a7 ./deploy_kt.sh'

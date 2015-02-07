@@ -1,11 +1,32 @@
+# Folder view configuration files
 *.DS_Store
 *.sw[nop]
-.bundle
-.env
-db/*.sqlite3
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# General log folders
 log/*.log
-rerun.txt
-tags
-!tags/
+
+# Temporary files
 tmp/**/*
 !tmp/cache/.keep
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# Compiled Python files
+*.pyc
+
+# Compiled C++ files
+*.out
+
+# Application specific files
+.bundle
+.env
+.sass-cache
+node_modules
+venv
